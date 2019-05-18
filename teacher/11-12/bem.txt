@@ -1,0 +1,21 @@
+container
+	container__header
+		header
+			container__fixed
+				header__logo
+					logo
+						logo__link
+							logo__img
+				header__menu
+					menu
+						menu__item
+							menu__link
+				header__info
+					info
+						info__collection
+						info__heading
+						info__slogan
+						info__btn
+							btn btn_white
+						
+			

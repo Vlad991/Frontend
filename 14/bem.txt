@@ -1,0 +1,110 @@
+container     //блок
+	container__header   //элемент
+		header           //блок
+			container__fixed
+				layout
+					header__logo
+						logo
+							logo__link
+								logo__img
+					header__menu
+						menu
+							menu__item
+								menu_link
+				header__info
+					info
+						info__collection			
+						info__heading			
+						info__slogan			
+						info__btn
+							btn btn_white
+	container__products
+		products brandly-block
+			container__fixed
+				products__heading
+					heading
+				products__layout
+					layout categories
+						layout__col layout__col_33pc
+							category category_men
+								category__link
+						layout__col layout__col_33pc
+							category category_women
+								category__link
+						layout__col layout__col_33pc
+							category category_watches
+								category__link
+				products__layout
+					layout sales
+						layout__col
+							sale-info sale-info_new-collection
+								sale-info__link
+						layout__col
+							sale-info sale-info_spirit-collection
+								sale-info__link
+	container__blog
+		blogs brandly-block
+			container__fixed
+				blogs__heading
+					heading
+				blogs__layout
+					layout blog-articles
+						layout__col
+							blog-aritcle
+								blog-article__img
+								blog-article__heading
+								blog-article__author
+								blog-article__content
+								blog-article__btn
+						layout__col
+							blog-aritcle
+							 	blog-article__img
+								blog-article__heading
+								blog-article__author
+								blog-article__content
+								blog-article__btn
+	container__goods
+		goods
+			container__fixed
+				goods__heading
+					heading
+			goods__slider
+				slider
+					slider__slide slider__slide_shown
+						layout slide
+							layout__col
+								goods-img
+							layout__col
+								goods-description
+									goods-description__heading
+											subheading
+										goods-description_brief
+										goods-description_content
+										goods-description_sizes
+											layout sizes-menu
+												sizes-menu__item btn
+												sizes-menu__item btn
+												sizes-menu__item sizes-menu__item_active
+												sizes-menu__item btn
+										goods-description__btn
+											btn btn_black
+										goods-description__btn
+											btn btn_black
+					slider__slider-controls
+						slider-controls
+							slider-controls__item
+							slider-controls__item
+							slider-controls__item slider-controls__item_current
+							slider-controls__item
+
+
+
+
+
+
+
+
+
+
+
+

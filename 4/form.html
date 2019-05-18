@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML</title>
+		<meta charset="utf-8">
+		<style>
+   body {
+    background: #333; /* Цвет фона */
+    color: white; /* Цвет текста */
+   }
+  </style>
+	</head>
+
+	<body>
+		<h1>Форма регистрации</h1>
+		<form action="">
+			<label>Логин</label>
+			<br><input type="text" name="login" placeholder="Логин" value="admin">
+			<br><label>Пароль</label>
+			<br><input type="password" name="pswd" placeholder="Пароль">
+			<br><label>Фото</label>
+			<br><input type="file" name="photo">
+			<br><label>Пол</label>
+			<br><input type="radio" name="sex" value="male" id="m" checked> <label for="m">мужской</label>
+			<br><input type="radio" name="sex" value="female" id="f"> <label for="f">женский</label>
+			<br><label>Город</label>
+			<br><select name="city">
+				<option value="kiev">Киев</option>
+				<option value="odessa" selected>Одесса</option>
+				<option value="lvov">Львов</option>
+			</select>
+			<br>Рассылка
+			<br><input type="checkbox" name="subscribe" value="news" id="s1"> <label for="s1">Новости</label>
+			<br><input type="checkbox" name="subscribe" value="goods" id="s2"> <label for="s2">Товары</label>
+			<br><input type="checkbox" name="subscribe" value="discounts" id="s3"> <label for="s3">Скидки</label>
+			<br>Комментраий
+			<br><textarea name="comments" cols="25" rows="10"></textarea>
+			<br><input type="submit" value="Отправить"><!-- для отправки формы на сервер в action и method-->
+			<input type="button" value="Отмена">
+			<!-- 
+			<button type="button"></button>
+			<button type="submit"></button>
+			 -->
+		</form>
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

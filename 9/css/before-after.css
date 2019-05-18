@@ -1,0 +1,62 @@
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+h1::before, 
+h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	border-bottom: 1px solid red;
+	margin: 10px auto;
+}
+
+h2 {
+	color: green;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+h2::before, 
+h2::after {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	border-bottom: 1px solid red;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+.phone{
+	font-size: 10px;
+}
+
+.phone::before{
+	content: url(../images/icon.png);
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	margin: 40px 0 0 0;
+	transition: transform 300ms ease-out;
+}
+
+.square:hover {
+	transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+

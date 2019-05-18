@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+
+body {
+	margin: 0;
+	/*background: url(../images/header/Brandly.jpg) no-repeat top center;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {}
+
+.brandly-block{
+    padding: 58px 0;
+}
+
+.container__header {}
+
+.header {
+    height: 930px;
+    background: url(../images/header/bg.jpg) no-repeat top center;
+    padding: 0.1%;        /*для верхнего отступа*/
+}
+
+.container__fixed {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container__layout {
+    margin: 28px 0 0px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header__logo {}
+
+.logo {}
+
+.logo__link {}
+
+.logo__img {}
+
+.header__menu {
+    margin: 3px 0  0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.menu__item {
+    margin: 0 0 0 75px;
+}
+
+.menu__item:first-child {
+    margin-left: 0;
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #dc0000;
+}
+
+.header__info {}
+
+.info {
+    text-align: center;
+    color: #fff;
+}
+
+.info__collection {
+    font-weight: 300;
+    font-size: 31px;
+    margin: 236px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.info__heading {
+    font-family: 'Lato';
+    font-size: 60px;
+    font-weight: 900;
+    margin: 27px 0 27px 0;
+    /*color: red;*/
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+.info__slogan {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.info__btn {
+    width: 199px;
+    margin: 46px auto 0;
+}
+
+.btn {
+    display: block;
+    border-radius: 4px;
+    height: 56px;
+    line-height: 56px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.btn_white {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.container__products {}
+
+.products {}
+
+.container__heading {
+    margin: 0 0 64px 0;
+}
+
+.products__heading {}
+
+.heading {
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    font-size: 40px;
+}
+
+.heading::before,
+.heading::after {
+    width: 112px;
+    height: 3px;
+    display: block;
+    content: "";
+    background: #dc0000;
+    margin: 0 auto;
+}
+
+.heading::before {
+    margin-bottom: 15px;
+}
+
+.heading::after {
+    margin-top: 15px;
+}
+
+.products__layout{}
+
+.categories{}
+
+.layout__col {}
+
+.layout__col_33pc{}
+
+.category {
+    width: 370px;
+    height: 418px;
+    display: flex;
+}
+
+.category_men{
+    background: url(../images/products/men.jpg) no-repeat top center;
+}
+
+.category_women{
+    background: url(../images/products/women.jpg) no-repeat top center;
+}
+
+.category_watches {
+    background: url(../images/products/watches.jpg) no-repeat top center;
+}
+
+.category__link{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    width: 309px;
+    height: 349px;
+    display: block;
+    border: 3px solid #fff;
+    margin: auto;
+    text-align: center;
+    line-height: 349px;
+}
+
+.sales{}
+
+.sale-info {
+}
+
+.sale-info_new-collection{
+    background: url(../images/products/new_autumn_collection.jpg) no-repeat top center;
+}
+
+.sale-info__link{
+    width: 570px;
+    height: 418px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 45px;
+    color: #fff;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.sale-info_spirit-collection{
+    background: url(../images/products/mega_sale.jpg) no-repeat top center;
+}
+
+.container__blog{}
+
+.blogs{}
+
+.blogs__heading{
+    margin: 0px 0 69px 0;
+}
+
+.blogs__layout{}
+
+.blog-articles{}
+
+.blog-article{
+    width: 571px;
+    height: 762px;
+}
+
+.blog-article__img{}
+
+.blog-article__heading{
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    color: #dc0000;
+    margin: 19px 0 20px 0;
+}
+
+.blog-article__author{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #6e6e6e;
+    margin: 0 0 30px 0;
+}
+
+hr{
+    margin: 0;
+    border: none;
+    color: #ecf0f1;
+    background-color: #ecf0f1;
+    height: 1px;
+}
+
+.blog-article__content{
+    height: 102px;
+    line-height: inherit;
+    margin: 24px 0;
+    /* padding: 24px 0 0 0; */
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+.blog-article__btn{
+    width: 170px;
+    margin: 30px 0 30px 0;
+}
+
+.btn_black {
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 1px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

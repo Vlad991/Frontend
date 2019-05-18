@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Mahdalena';
+	src: url('fonts/Mahdalena.eot');
+	src: local('☺'), url('fonts/Mahdalena.woff') format('woff'), url('fonts/Mahdalena.ttf') format('truetype'), url('fonts/Mahdalena.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

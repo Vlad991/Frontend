@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Source+Serif+Pro');
+
+/*.........................Container 1.........................*/
+.container1 {
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #f1f1f1;
+}
+
+.articles {
+	font-size: 0;
+}
+
+.article {
+	font-size: 0;
+	margin: 0;
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.article h1 {
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.article p {
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+}
+
+/*.............................Container 2.............................*/
+
+.container2 {
+	max-width: 1000px;
+	margin: 100px auto;
+	background: #f1f1f1;
+}
+
+.info {
+	font-size: 0;
+}
+
+.info_item {
+	font-size: 0;
+	margin: 0;
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.info_item h1 {
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 10px 55px 25px;
+	text-transform: uppercase;
+}
+
+.info_item li {
+	display: block;
+	margin: 15px;
+	list-style: none;
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+}
+/*.............................Container 3.............................*/
+
+.container3 {
+	max-width: 1040px;
+	margin: 100px auto;
+	background: #f1f1f1;
+	font-size: 0;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.item {
+	font-size: 0;
+	margin: 0;
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.food_article {
+	padding: 25px 50px;
+}
+
+.item h1 {
+	text-align: justify;
+	font-weight: bold;
+	font-family: ;
+	font-size: 50px;
+	margin: 0;
+}
+
+.food_head {
+	text-align: left;
+}
+
+.drinks_head {
+	text-align: right;
+	margin: 50px 0 0 0;
+}
+
+.item p {
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 15px 50px 15px 0;
+	line-height: 20px;
+}
+
+.picture {
+	padding: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	height: 407px;
+	width: 500px;
+}
+
+.fast_food {
+	margin: 20px 20px 100px 20px;
+	padding: 20px 0;
+}
+
+.fast_food_article {
+	float: right;
+}
+
+.food_article h2 {
+	font-size: 20px;
+}
+
+.drinks_arcticle {
+	float: left;
+}
+
+.gallery_link {
+	display: block;
+	font-family: Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #f15a29;
+	border: 1px solid #f15a29;
+	border-radius: 3px;
+	margin: 10px 225px 15px 0;
+	padding: 15px;
+}
+
+.gallery_link:hover {
+	background: #f15a29;
+	color: white;
+}
+
+/*..................................Container4.......................................*/
+
+.container4 {
+	background: rgba(0, 0, 0, 1);
+	max-width: 1200px;
+	margin: 100px auto;
+	font-size: 0;
+}
+
+.card {
+	margin: 20px 20px 100px;
+	display: inline-block;
+	width: 250px;
+	height: 400px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 25px;
+	/*box-shadow: 0 10px rgba(255, 255, 255, 0.3),0 -10px rgba(0, 0, 0, 0), -10px 0 rgba(0, 0, 0, 0), 10px 0 rgba(0, 0, 0, 0);*/
+	position: relative;
+	transition: transform 3000000ms ease-out;
+}
+
+.card:hover {
+	transform: rotate(180000deg);
+}
+
+.card div h1 {
+	font-family: 'Cinzel';
+	font-size: 200px;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 220px;
+	right: 60px;
+	left: 0;
+	margin: auto;
+}
+
+.a {
+	font-family: 'Cinzel';
+	font-size: 30px;
+	width: 20px;
+	height: 20px;
+}
+
+.a1 {
+	position: absolute;
+	top: 5px;
+	left: 20px; 
+	margin: auto;
+}
+
+.a2 {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	margin: auto;
+}
+
+.chirva_icon {
+	color: red;
+}
+
+.chirva_icon::after {
+	content: url(../images/chirva.jpg);
+	vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+}
+
+.chresta_icon {
+	color: black;
+}
+
+.chresta_icon::after {
+	content: url(../images/chresta.jpg);
+	vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+}
+
+.pika_icon {
+	color: black;
+}
+
+.pika_icon::after {
+	content: url(../images/pika.jpg);
+	vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+}
+
+.buba_icon {
+	color: red;
+}
+
+.buba_icon::after {
+	content: url(../images/buba.jpg);
+	vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+}
+.trans {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

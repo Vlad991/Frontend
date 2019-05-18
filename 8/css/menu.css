@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	background: url(../images/image1.jpg) 0 0 / cover;
+}
+
+.menu {	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: "Indie Flower", cursive;
+	font-size: 25px;
+}
+
+.socials {}
+
+.socials li {}
+
+.socials li a {
+	display: block;
+	width: 60px;
+	height: 59px;
+	background: url(../images/social.png);
+	transition: background 300ms ease-out;
+}
+
+.socials li a:hover {
+	background-position-y: -59px;
+}
+
+.socials li .tw {
+	background-position-x: -60px;
+}
+
+.socials li .yt {
+	background-position-x: -121px;
+}
+
+.socials li .inst {
+	background-position-x: -180px;
+}
+
+.socials li .in {
+	background-position-x: -243px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

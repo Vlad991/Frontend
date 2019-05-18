@@ -1,0 +1,64 @@
+
+div {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.orange {
+	background: orange;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+
+.blue {
+	background: blue;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+
+.red {
+	background: red;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+.green {
+	background: green;
+	position: relative;
+	top: -50px;
+}
+
+.black {
+	background: black;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.yellow {
+	background: yellow;
+	postiton: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #f1f1f1;
+}
+
+.news {
+	font-size: 0;  //убираем пробелы которые между дивами
+}
+
+.news-item {
+	display: inline-block;
+	width: 25%;
+	font-size: 14px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.news-item:first-child {
+	background: #e4e4e4;
+}
+
+.news-item:last-child {
+	background: #bebebe;
+}
+
+.news-item:nth-child(2) {
+	background: #c3d6e2;
+	opacity: 0.1;
+}
+
+.news-item:nth-child(2):hover {
+	opacity: 1;
+}
+
+.article {
+	width: 20%;
+}
+
+.article1 {
+	float: left;
+	height: 150px;
+	overflow-y: scroll;
+}
+
+.article2 {
+	float: right;
+	height: 170px;
+	overflow: hidden;
+	display: none;
+}
+
+/*.article:first-child {
+	float: left;
+}
+
+.article:last-child {
+	float: right;
+}*/
+
+.clearfix {
+	clear: both;
+}
+
+
+
+

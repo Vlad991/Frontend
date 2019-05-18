@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+	<h1>Форма заказа</h1>
+	<form action="">
+		<label for="name">ФИО</label>
+		<br><input type="text" id="name">
+		<br><label for="phone">Телефон</label>
+		<br><input type="text" id="phone">
+		<br><label>Способ доставки</label>
+		<br><input type="radio" name="delivery" value="pickup" id="p" checked> <label for="p">Самовывоз</label>
+		<br><input type="radio" name="delivery" value="home_delivery" id="h"> <label for="h">Доставка на дом</label>
+		<br><input type="radio" name="delivery" value="mail" id="m"> <label for="m">По почте</label>
+		<br><select name="payment">
+			<option value="cash">Наличными при получении</option>
+			<option value="card" selected>Перевод на карту</option>
+		</select>
+		<br><input type="submit" value="Сделать заказ">
+	</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+h1 {
+	color: #ffff00;
+}
+
+body {
+	background: url(../images/image3.jpg) center top;
+	background-size: cover;
+}
+
+p {
+	/*background: #f44;*/
+}
+
+.text {
+	color: #ffff77;
+}
+
+.highlight, a {
+	color: #cc00cc;
+}

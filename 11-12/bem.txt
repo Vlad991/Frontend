@@ -1,0 +1,19 @@
+container     //блок
+	container__header   //элемент
+		header           //блок
+			container__fixed
+				header__logo
+					logo
+						logo__link
+							logo__img
+				header__menu
+					menu
+						menu__item
+							menu_link
+				header__info
+					info
+						info__collection			
+						info__heading			
+						info__slogan			
+						info__btn
+							btn btn_white			
