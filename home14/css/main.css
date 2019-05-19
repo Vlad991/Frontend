@@ -5,9 +5,8 @@ body{
     /* background: url(../images/template.jpg) no-repeat top center; */
     font-family: 'Open Sans', sans-serif;
 }
-.container{
-}
-.brandly-block{padding: 58px 0;}
+.container{}
+.brandly-block{padding: 56px 0 29px;}
 .container__header{}
 .header{
     height: 932px;
@@ -82,23 +81,29 @@ body{
 }
 .btn{
     display: block;
-    border-radius: 4px;
-    height: 56px;
+    /* border-radius: 4px; */
+    height: 54px;
     line-height: 56px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
+    /* font-size: 18px; */
     font-weight: 900;
     text-align: center;
 }
 .btn_white{
+    font-family: 'Lato';
+    font-size: 18px;
     color: #fff;
+    border-radius: 4px;
     border: 2px solid #fff;
 }
 .container__products{}
-.products{}
+.products{
+    /* min-height: 1028px; */
+}
 .container__heading{
-    margin: 0 0 64px 0;
+    margin: 0 0 61px 0;
 }
 .products__heading{}
 .heading{text-align: center;font-style: italic;font-weight: 300;margin: 0;font-size: 40px;}
@@ -113,8 +118,8 @@ body{
     margin: 0 auto;
 }
 
-.heading::before{margin-bottom: 15px;}
-.heading::after{margin-top: 15px;}
+.heading::before{margin-bottom: 16px;}
+.heading::after{margin-top: 21px;}
 
 .products__layout{
     margin: 0 0 30px;
@@ -151,7 +156,7 @@ body{
     font-weight: 900;
     font-size: 45px;
     color: #fff;
-    padding-top: 122px;
+    padding-top: 115px;
     box-sizing: border-box;
 }
 
@@ -166,8 +171,8 @@ body{
     margin: 0 auto;
 }
 
-.sale-info__link::before{margin-bottom: 15px;}
-.sale-info__link::after{margin-top: 15px;}
+.sale-info__link::before{margin-bottom: 11px;}
+.sale-info__link::after{margin-top: 10px;}
 
 
 .sale-info_spirit-collection{
@@ -178,7 +183,7 @@ body{
 .blogs{}
 
 .blogs__heading{
-    margin: 0px 0 69px 0;
+    margin: 4px 0 65px;
 }
 
 .blogs__layout{}
@@ -201,7 +206,7 @@ body{
 
 .subheading{
     font-size: 30px;
-    font-weight: bold;
+    font-family: 'Lato';
     color: #dc0000;
     margin: 0;
 }
@@ -231,6 +236,9 @@ body{
 }
 
 .btn_black {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    /* font-weight: 600; */
     color: #333333;
     border: 1px solid #333333;
     border-radius: 1px;
@@ -239,12 +247,13 @@ body{
 .container__goods{}
 
 .goods{
-    min-height: 918px;
+    min-height: 833px;
     background: url(../images/goods/bg.jpg) 0 0 / cover;
+    /* padding: 31px 0; */
 }
 
 .goods__heading{
-    margin: 0 0 64px 0;
+    margin: 3px 0 60px 0;
 }
 
 .goods__slider{}
@@ -275,20 +284,24 @@ body{
     display: block;
     content: "";
     background: #000000;
-    margin: 20px 0 0;
+    margin: 25px 0 0;
 }
 
 .goods-description__content{
-    font-family: 'Open Sans';
+    font-family: 'Lato';
     font-size: 18px;
+    /* font-weight: inherit; */
     color: #777777;
-    letter-spacing: 1px;
-    margin: 22px 0;
+    /* letter-spacing: 2px; */
+    line-height: 25px;
+    margin: 23px 0;
 }
 
-p {
-    margin-top: 25px;
-    /* letter-spacing: 1px; */
+p.content__natan-stewart {letter-spacing: 2px;}
+
+p.content__fashion-tip {
+    margin: 24px 0;
+    letter-spacing: 1.6px;
 }
 
 .sizes{
@@ -296,7 +309,7 @@ p {
     width: 370px;
 }
 .goods-description__sizes{
-    margin: 90px 0 0;
+    margin: 86px 0 0;
 }
 .sizes-menu {}
 .sizes-menu__item {
@@ -318,7 +331,7 @@ p {
 
 .slider__slider-controls{
     width: 78px;
-    margin: 53px auto;
+    margin: 51px auto 0;
     /* margin: 53px 547px;*/
 }
 
@@ -342,5 +355,50 @@ p {
 }
 
 .subscribe-form{
-    background: url(../images/subscribe/bg.jpg);
+    background: url(../images/subscribe/bg.jpg) no-repeat top center;
+    min-height: 250px;
 }
+
+.subscribe-form__heading {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: lighter;
+    color: #ffffff;
+    margin: 11px 0;
+}
+
+.subscribe-form__form {
+    min-height: 51px;
+    margin: 25px 0;
+}
+
+.form {
+
+}
+
+.form__email-text {
+
+}
+
+input[type=text] {
+    height: 51px;
+    width: 770px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.form__subscribe-button {background-color: #ffffff;}
+
+input[type=submit] {
+    width: 270px;
+    height: 51px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
