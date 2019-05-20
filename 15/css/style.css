@@ -306,10 +306,11 @@ p.content__fashion-tip {
 
 .sizes{
     padding: 0;
-    width: 370px;
+    /* width: 370px; */
 }
 .goods-description__sizes{
     margin: 86px 0 0;
+    width: 370px;
 }
 .sizes-menu {}
 .sizes-menu__item {
@@ -356,7 +357,7 @@ p.content__fashion-tip {
 
 .subscribe-form{
     background: url(../images/subscribe/bg.jpg) no-repeat top center;
-    min-height: 250px;
+    min-height: 228px;
 }
 
 .subscribe-form__heading {
@@ -376,26 +377,55 @@ p.content__fashion-tip {
 
 }
 
-.form__email-text {
 
+
+.form__email-text input {
+    height: 51px;
 }
 
 input[type=text] {
-    height: 51px;
-    width: 770px;
-    background-color: rgba(0, 0, 0, 0);
+   /* height: 51px;*/
+   width: 686px;
+   font-family: 'Open Sans';
+   font-size: 13px;
+   color: #ffffff;
+   background-color: rgba(0, 0, 0, 0);
+   background: url(../images/subscribe/email.jpg) no-repeat left 30px center;
+   padding-left: 80px;
+   border: 1px solid #ffffff;
 }
 
-.form__subscribe-button {background-color: #ffffff;}
+.form__subscribe-button input {
+    margin: 3px 0;
+    height: 51px;
+    background: rgba(255, 255, 255, 1);
+}
+.form__subscribe-button input:hover{
+    cursor: pointer;
+}
 
 input[type=submit] {
     width: 270px;
     height: 51px;
+    font-size: 18px;
+    font-weight: bold;
     background-color: #ffffff;
+    border: 0px;
     box-sizing: border-box;
 }
 
+.container__made-with {
+    max-width: 254px;
+    margin: 0 auto 72px;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #9a9a9a;
+}
 
+.made-with {
+    /* max-width: 254px; */
+    /* margin: 0 auto; */
+}
 
 
 
