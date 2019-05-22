@@ -3,7 +3,8 @@
 	<head>
 		<title>HTML, CSS</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<div class="container">
@@ -89,7 +90,7 @@
 			<div class="container__goods">
 				<div class="goods brandly-block">
 					<div class="container__fixed">
-						<div class="goods__heading">
+						<div class="container__heading goods__heading">
 							<h2 class="heading">Trending Items</h2>
 						</div>
 						<div class="goods__slider">
@@ -106,15 +107,15 @@
 												</div>
 												<div class="goods-description__brief">Summer/Autumn Collection</div>
 												<div class="goods-description__content">
-													<div class="content">
-														<p class="content__natan-stewart">Classic Nathan Stewart Jacket from his latest collection.<br>
-														This item is loved by many just because of it’s simle style.
-														Simple lines,lovely texture,it suits almost everybody. 
-														It comes in six different colors,and all sizes.</p>
-														<p class="content__fashion-tip">FASHION TIP:<br>With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
-												</div>	
+													<p>Classic Nathan Stewart Jacket from his latest collection.
+													This item is loved by many just because of it’s simle style.
+													Simple lines,lovely texture,it suits almost everybody. 
+													It comes in six different colors,and all sizes.</p>
+
+													<p>FASHION TIP:
+														With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
 												</div>
-												<div class="goods-description__sizes">
+												<div class="goods-description__layout">
 													<ul class="sizes layout">
 														<li class="sizes-menu__item btn btn_black">M</li>
 														<li class="sizes-menu__item sizes-menu__item_active btn btn_black">L</li>
@@ -122,8 +123,8 @@
 														<li class="sizes-menu__item btn btn_black">XXL</li>
 													</ul>
 												</div>
-												<div class="goods-description__buttons">
-													<div class="buttons layout">
+												<div class="goods-description__layout">
+													<div class="layout">
 														<div class="goods-description__btn">
 															<a href="#" class="btn btn_black">shop now</a>
 														</div>
@@ -149,7 +150,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container__blogs">
+			<div class="container__blog">
 				<div class="blogs brandly-block">
 					<div class="container__fixed">
 						<div class="blogs__heading">
@@ -182,6 +183,7 @@
 										<div class="blog-article__author">By Marry Beard&ensp;|&ensp;Trending</div>
 										
 										<div class="blog-article__content">Just amazing! That is how i can describe this person. So creative,so in-<br>spiring. I was watching her create in her small studio in London and i was amazed at how every little detail gets included in her creaions. From frames,to glass thickness she blew me away...</div>
+										
 										<div class="blog-article__btn">
 											<a href="#" class="btn btn_black">READ MORE</a>
 										</div>
@@ -197,27 +199,16 @@
 					<div class="container__fixed">
 						<h2 class="subscribe__heading">SUBSCRIBE TO OUR NEWSLETTER TO RECEIVE LATEST NEWS AND OFFERS</h2>
 						<div class="subscribe__layout">
-							<form action="" class="suscibe-form layout">
-								<div class="form__email-text">
-									<input type="text" name="email" placeholder="EMAIL ADDRESS" value="">
+							<form class="layout subscribe-form">
+								<div class="layout__col subscribe-form__col">
+									<input type="text" name="email" placeholder="EMAIL ADDRESS" class="subscribe-form__textfiled">
 								</div>
-								<div class="form__subscribe-button">
-									<input type="submit" value="SUBSCRIBE">
+								<div class="layout__col">
+									<button class="subscribe-form__btn">SUBSCRIBE</button>
 								</div>
 							</form>
 						</div>
-					</div>
-				</div>
-				</div>
-				<div class="container__made-with">
-					<div class="made-with layout">
-						<div class="made-with__made">
-							Made with
-						</div>
-						<img src="images/made/heart1.jpg" alt="">
-						<div class="made-with__by">
-							by WebDonut.net
-						</div>
+						<div class=""></div>
 					</div>
 				</div>
 			</div>
