@@ -1,0 +1,33 @@
+/*
+html {
+	font-size: 16px;
+}
+*/
+.menu{
+	font-size: 1.8rem; /* == 28.8px*/  /*от тега html*/
+	font-size: 1.8em; /* == ?px */  /*от родительского тега*/
+}
+
+
+.b-container{
+	/*outline: 1px solid red;*/
+}
+
+.b-btn{
+	width: 150px;
+	margin: 20px 0 0;
+}
+
+.b-card{
+	padding: 10px;
+	margin: 0 0 0 10px;
+	max-width: 24%;
+}
+
+.b-card:first-child{
+	margin-left: 0;
+}
+
+.b-teachers{
+	margin: 20px 0;
+}

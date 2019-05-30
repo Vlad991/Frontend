@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>animation</title>
+  <style>
+   .blink {	
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+   }
+   @-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+   }
+   @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+   }
+  </style>
+ </head>
+ <body>
+  <div class="blink">Мигающий текст</div>
+ </body>
+</html>

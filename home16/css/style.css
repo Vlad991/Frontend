@@ -1,0 +1,308 @@
+
+body{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{}
+
+.container__test{}
+
+.test{}
+
+.container__fixed{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.test__menu{}
+
+.menu{
+    width: 390px;
+}
+
+.menu-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.layout{
+	display: flex;
+	justify-content: space-between;
+}
+
+.test__circles ul:first-child{
+	margin-left: 25px;
+}
+
+.menu__item{
+    /* height: 27px; */
+}
+
+.item-link{
+    height: 28px;
+    padding: 0 11px;
+}
+
+.item-link__link{
+	text-decoration: none;
+	color: #0076d1;
+	text-align: center;
+	line-height: 28px;
+	font-family: Arial;
+	font-size: 14px;
+	display: block;
+}
+
+.item{
+	 display: none;
+	 position: absolute;
+	 list-style: none;
+	 box-sizing: border-box;
+}
+
+.menu__item:hover .item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d0d0d0;
+}
+
+.menu__item:hover .item-link {
+    display: block;
+    border: 1px solid #d0d0d0;
+    border-bottom: none;
+    position: relative;
+    bottom: 1px;
+}
+
+.menu__item:hover .item-link .item-link__link{
+    color: #000;
+} 
+
+.item__subitem{
+	height: 42px;
+	padding: 0 7px;
+}
+
+.item__link{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	color: #5c5c5c;
+	line-height: 42px;
+}
+
+.item__link:hover{
+	text-decoration: underline;
+}
+
+/*..................................................Circles....................................................*/
+
+.test__circles{
+	margin: 124px 0  0px;
+}
+
+.circles{
+	max-width: 290px;
+}
+
+
+.circle__item{
+	/* margin-left: 38px; */
+}
+
+.circle__link{
+	display: block;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: url(../images/circles/circle.png) center no-repeat;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 0 -2px 0px #b3b3b3;
+}
+
+.circle__link:hover{
+	box-shadow: 0 0 5px rgba(0,0,0,0.4) inset; 
+}
+
+/*...........................................Sprite Menu........................................*/
+
+.test__sprite-menu{
+	margin: 108px 31px;
+}
+
+.sprite-menu{
+	height: 212px;
+	width: 163px;
+}
+
+.sprite-menu__item{
+	height: 24px;
+}
+
+.sprite-menu__link{height: 100%;}
+
+.sprite-link{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+}
+
+.sprite-link__icon{
+	width: 20px;
+	height: 20px;
+	background: url(../images/sprite/sprite.png) no-repeat;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+
+.sprite-link__icon_main{
+	background-position-x: 4px;
+	background-position-y: 1px;
+}
+
+.sprite-link__icon_service{
+	background-position-x: 4px;
+	background-position-y: -23px;
+}
+
+.sprite-link__icon_rendz{
+	background-position-x: 4px;
+	background-position-y: -47px;
+}
+
+.sprite-link__icon_salt{
+	background-position-x: 4px;
+	background-position-y: -71px;
+}
+
+.sprite-link__icon_media{
+	background-position-x: 4px;
+	background-position-y: -95px;
+}
+
+.sprite-link__icon_target{
+	background-position-x: 4px;
+	background-position-y: -119px;
+}
+
+.sprite-link__icon_position{
+	background-position-x: 4px;
+	background-position-y: -143px;
+}
+
+.sprite-link__icon_mix{
+	background-position-x: 4px;
+	background-position-y: -167px;
+}
+
+.sprite-link__icon_law{
+	background-position-x: 4px;
+	background-position-y: -191px;
+}
+
+.sprite-link__text{
+	color: #404040;
+	font-family: Arial;
+	font-size: 12px;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.sprite-menu:hover .sprite-menu__item{
+	opacity: 0.4;
+	border-right: 1px solid rgba(232, 232, 232, 1);
+}
+
+.sprite-menu:hover .sprite-menu__item:hover{
+	opacity: 1;
+	background: #f7f7f7;
+}
+
+.sprite-link__icon:hover{
+	opacity: 1;
+}
+
+.sprite-link__text:hover{
+	color: rgba(64, 64, 64, 1);
+}
+
+/*........................................Nature..............................................*/
+
+.test__nature{
+	margin: 140px 35px;
+}
+
+.nature{width: 890px;}
+
+.layout__col{
+	width: 200px;
+}
+
+.nature__lyric{
+	text-decoration: none;
+}
+
+.nature__actual{
+	text-decoration: none;
+}
+
+.nature__meta{
+	text-decoration: none;
+}
+
+.nature__maybe{
+	text-decoration: none;
+}
+
+.subheading{
+	font-family: "PT Sans";
+	font-size: 15px;
+	font-weight: bold;
+	color: #0076d1;
+	width: 200px;
+	margin: 10px 0;
+}
+
+.nature-text{
+	margin: 7px 0;
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+}
+
+.nature__article:hover .subheading{
+	text-decoration: underline;
+}
+
+.nature__article:hover .nature__image{
+	opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+

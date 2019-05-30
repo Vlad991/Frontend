@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+   .progress {
+    background: #333; 
+    border: 1px solid #333; 
+    height: 20px; 
+    position: relative; 
+   }
+   .progress::before{
+    animation: progress 5s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: progress;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+    content: '';
+    position: absolute; 
+    height: 100%; 
+    background: #ffa600;
+   }
+   @-webkit-keyframes progress {
+    from { width: 0; }
+    to { width: 100%; }
+   }
+   @keyframes progress {
+    from { width: 0; }
+    to { width: 100%; }
+   }
+  </style>
+ </head>
+ <body>
+  <div class="progress"></div>
+ </body>
+</html>
