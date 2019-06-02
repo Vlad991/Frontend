@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body{
     margin: 0;
@@ -406,7 +407,7 @@ body{
         width: 60%;
     }
 
-    .layout__col_30pc{
+    .layout__col_40pc{
         width: 40%;
     }
 
